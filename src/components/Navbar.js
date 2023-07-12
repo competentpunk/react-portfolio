@@ -12,6 +12,7 @@ const AppNavbar = () => {
           <Navbar.Collapse id="navbar" className="d-flex flex-row-reverse">
             <Nav className="ml-auto d-flex">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
+              <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>

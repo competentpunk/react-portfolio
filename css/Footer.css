@@ -1,0 +1,20 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex-grow: 1;
+  }
+  
+  .footer {
+      display: inline;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      max-height: 80px;
+      background-color: #680404;
+      color: white;
+    }

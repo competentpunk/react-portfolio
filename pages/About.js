@@ -1,7 +1,15 @@
 import React from 'react';
+import Navbar from '../components/NavBar';
+import { Container } from 'react-bootstrap';
+import Footer from '../components/Footer';
+import "../css/About.css";
 
 export default function About() {
   return (
+    <Container>
+    <div>
+     <Navbar bg="dark" variant="dark" expand="lg"/>
+   </div>
     <div>
       <h1>About Me</h1>
       <p>
@@ -9,5 +17,9 @@ export default function About() {
       I'm learning to code. Enjoy my website.
       </p>
     </div>
+    <div>
+    <Footer />
+    </div>
+    </Container>
   );
 }

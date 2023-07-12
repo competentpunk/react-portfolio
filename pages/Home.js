@@ -1,9 +1,14 @@
 import React from 'react';
+import Navbar from '../components/NavBar';
+import { Container } from 'react-bootstrap';
+import Footer from '../components/Footer';
+import "../css/Home.css";
 
 export default function Home() {
   return (
+   
     <Container>
-      <div>
+       <div>
         <Navbar bg="dark" variant="dark" expand="lg"/>
       </div>
     <div>
@@ -12,6 +17,10 @@ export default function Home() {
         Hi. I'm Erynn.
       </p>
     </div>
+    <div>
+    <Footer />
+    </div>
     </Container>
+ 
   );
 }
