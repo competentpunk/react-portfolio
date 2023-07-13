@@ -2,7 +2,9 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "engines": {
-    "node": "18.x"
+    "node": "18.x",
+    "homepage": "https://shrouded-castle-48540-2b2ce7900c2e.herokuapp.com/"
+
   },
   "private": true,
   "proxy": "http://localhost:3001",
