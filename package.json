@@ -20,7 +20,8 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "babel": "@babel/plugin-proposal-private-property-in-object"
   },
   "scripts": {
     "start": "react-scripts start",

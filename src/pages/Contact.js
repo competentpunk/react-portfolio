@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <Container>
        <div>
-        <Navbar bg="dark" variant="dark" expand="lg"/>
+        <Navbar />
       </div>
       <div>
         <h1>Contact Me</h1>

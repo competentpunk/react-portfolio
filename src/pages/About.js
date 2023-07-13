@@ -8,7 +8,7 @@ export default function About() {
   return (
     <Container>
     <div>
-     <Navbar bg="dark" variant="dark" expand="lg"/>
+     <Navbar />
    </div>
     <div>
       <h1>About Me</h1>
