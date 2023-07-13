@@ -1,7 +1,8 @@
 import React from 'react';
-import Navbar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 import { Container, Button } from 'react-bootstrap';
 import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 import "../css/Contact.css";
 
 export default function Contact() {

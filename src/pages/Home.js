@@ -7,20 +7,20 @@ import "../css/Home.css";
 export default function Home() {
   return (
    
-    <Container>
+<div>
        <div>
-        <Navbar bg="dark" variant="dark" expand="lg"/>
+        <Navbar />
       </div>
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Hi. I'm Erynn.
-      </p>
+      <Container>
+        <h1>Home Page</h1>
+        <p>Hi. I'm Erynn.</p>
+      </Container>
     </div>
-    <div>
-    <Footer />
-    </div>
-    </Container>
- 
+    
+ <div>
+ <Footer />
+ </div>
+ </div>
   );
 }

@@ -1,6 +1,25 @@
-import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { createHttpLink } from '@apollo/client';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import './App.css';
+const httpLink = createHttpLink({
+  uri: '/graphql',
+});
 
-const App = () => <PortfolioContainer />;
+function App() {
+  return (
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={ <About />} />
+            <Route path="/Contact" element={<Contact /> } />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </Router>
+  );
+};
 
 export default App;
