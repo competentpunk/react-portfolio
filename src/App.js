@@ -14,10 +14,10 @@ function App() {
   return (
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={ <About />} />
-            <Route path="/Contact" element={<Contact /> } />
-            <Route path="*" element={<Navigate to="/" />} />
+            <Route path="/react-portfolio" element={<Home />} />
+            <Route path="/react-portfolio/about" element={ <About />} />
+            <Route path="/react-portfolio/contact" element={<Contact /> } />
+            <Route path="*" element={<Navigate to="/react-portfolio" />} />
           </Routes>
         </Router>
   );
