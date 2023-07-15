@@ -6,10 +6,9 @@ import "../css/About.css";
 
 export default function About() {
   return (
+<div>
+    <Navbar />
     <Container>
-    <div>
-     <Navbar />
-   </div>
     <div>
       <h1>About Me</h1>
       <p>
@@ -17,9 +16,9 @@ export default function About() {
       I'm learning to code. Enjoy my website.
       </p>
     </div>
-    <div>
-    <Footer />
-    </div>
     </Container>
+    
+     <Footer />
+     </div>
   );
 }

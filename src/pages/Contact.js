@@ -7,10 +7,9 @@ import "../css/Contact.css";
 
 export default function Contact() {
   return (
+    <div>
+    <Navbar />
     <Container>
-       <div>
-        <Navbar />
-      </div>
       <div>
         <h1>Contact Me</h1>
         <ContactForm />
@@ -21,9 +20,10 @@ export default function Contact() {
           Download Resume
         </Button>
       </div>
-      <div>
+    </Container>
+    <div>
       <Footer />
       </div>
-    </Container>
+      </div>
   );
 }
